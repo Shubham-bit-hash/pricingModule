@@ -1,0 +1,41 @@
+# Django
+*.pyc
+*~
+__pycache__
+db.sqlite3
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+.venv
+venv/
+ENV/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Static files
+staticfiles/
+media/
+
+# Logs
+logs/
+*.log
+
+# Database migrations (except initial)
+*/migrations/*.py
+init/migrations/__init__.py
+
+# Coverage reports
+.coverage
+htmlcov/
+
+# Python packaging
+dist/
+build/
+*.egg-info/
